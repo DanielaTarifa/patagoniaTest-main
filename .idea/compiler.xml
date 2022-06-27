@@ -16,7 +16,7 @@
     <bytecodeTargetLevel>
       <module name="car-service" target="11" />
       <module name="client-service" target="11" />
-      <module name="config-service" target="17" />
+      <module name="config-service" target="11" />
       <module name="eureka-service" target="11" />
       <module name="loan-service" target="11" />
     </bytecodeTargetLevel>
