@@ -38,13 +38,13 @@ public class ClientController {
         return ResponseEntity.ok(clientNew);
     }
 
-   /* @GetMapping("/bikes/{userId}")
-    public ResponseEntity<List<Bike>> getBikes(@PathVariable("userId") int userId) {
-        User user = userService.getUserById(userId);
-        if(user == null)
+   /* @GetMapping("/loan/{clientId}")
+    public ResponseEntity<List<Loan>> getLoan(@PathVariable("clientId") int clientId) {
+        Client client = clientService.getClientById(clientId);
+        if(client == null)
             return ResponseEntity.notFound().build();
-        List<Bike> bikes = userService.getBikes(userId);
-        return ResponseEntity.ok(bikes);
+        List<Client> loan = clientService.getLoan(clientId);
+        return ResponseEntity.ok(loan);
 
     } */
 

@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Loan {
-    private Double amount;//Double amount -String brand
-    private String type;//String type -String model
+    private Double amount;
+    private String type;
     private int clientId;
 }

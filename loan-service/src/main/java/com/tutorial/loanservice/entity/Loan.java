@@ -1,6 +1,7 @@
 package com.tutorial.loanservice.entity;
 
 import lombok.AllArgsConstructor;
+
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -18,7 +19,7 @@ public class Loan {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    private Double amount;//Double amount -String brand
-    private String type;//String type -String model
+    private Double amount;
+    private String type;
     private int clientId;
 }

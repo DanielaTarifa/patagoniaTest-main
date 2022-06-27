@@ -1,6 +1,7 @@
 package com.tutorial.clientservice.entity;
 
 import lombok.AllArgsConstructor;
+
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -18,6 +19,6 @@ public class Client {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    private String fullName;//String fullName;String name;
-    private Integer income;//Integer income;String email
+    private String fullName;
+    private Integer income;
 }
