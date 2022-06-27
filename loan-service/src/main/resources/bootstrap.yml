@@ -1,8 +1,11 @@
 spring:
   application:
     name: loan-service
-server:
-  port: 8003
+cloud:
+  config:
+    enabled: true
+    url: http://localhost:8004
+
 eureka:
   client:
     fetch-registry: true
